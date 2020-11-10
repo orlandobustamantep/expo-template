@@ -5,7 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "expo": "~39.0.2",
@@ -23,6 +24,7 @@
     "@types/react-native": "~0.63.2",
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
+    "husky": "^5.0.0-beta.0",
     "prettier": "^2.1.2",
     "typescript": "~3.9.5"
   },
